@@ -20,7 +20,7 @@ const Homework = () => {
             </p>
             <p>
                 Heroku: 
-                a platform as a service (PaaS) that enables developers to build, run and opearte applications. In relation to Git, it uses Git as the primary means for deploying applications. It's essentially Github with web servers. Developers can also share whatever is pushed to Heroku. 
+                a platform as a service (PaaS) that enables developers to build, run and opearte applications. In relation to Git, it uses Git as the primary means for deploying applications. It's essentially Github with web servers. It is an essay way for codes to be deployed to applications on a web server and then shared.  
             </p>
         </Essay>
         <Essay
