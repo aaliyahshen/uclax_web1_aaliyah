@@ -42,8 +42,13 @@ const Homework = () => {
             question='What are Single Page Apps (SPAs)? How do they differ from traditional multi-page Web Sites?'
         >
             <p>
-            my answers are as follows
+            Single Page Apps (SPAs) refer to web apps that only has one single page. The page is constantly being updated by Javascript. In comparison to multi-page web sites, they are faster and more interactive. This is because multi-page website requires the updates of the entire page whenever there's any data changes on the sites. It sends the new data to the server and returns with a new page. SPAs only updates the part of the page that has been changed or needs to be processed.
             </p>
+        </Essay>
+        <Essay
+            number={ 4 }
+            question='What is the difference between Web Designer, Front End Developer and Back End Developer?'
+        >
         </Essay>
     </div>
     ); 
