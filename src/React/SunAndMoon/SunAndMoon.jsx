@@ -31,6 +31,7 @@ export default SunAndMoon;
 
 const SunAndMoonStyled = styled.div`
     background-color: yellow;  
+    text-align: center;
 
     h2 {
         background-color: pink;
