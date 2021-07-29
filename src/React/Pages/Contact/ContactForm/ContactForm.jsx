@@ -14,4 +14,9 @@ export default ContactForm;
 
 const ContactFormStyled = styled.div`
     
+    background-color: pink;
+
+    @media (min-width: 800px){
+        background-color: orange;
+    }
 `;
