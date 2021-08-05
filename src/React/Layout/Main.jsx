@@ -40,8 +40,8 @@ const MainStyled = styled.main`
     background-color: #ebd0ae; 
     padding: 10px; 
 
-    div {
+    /* div {
         border: solid 2px white;
         padding: 20px; 
-    }
+    } */
 `; 
