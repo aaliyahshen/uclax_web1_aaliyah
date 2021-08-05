@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const Tab = ({tab, chosenTab, chosenTabUpdate}) => {
 
     const handleClick = () => {
-        chosenTabUpdate (tab);
+        chosenTabUpdate(tab);
     }
 
     const theClassName = (tab.title === chosenTab.title) ? 'Tab chosen': 'Tab';

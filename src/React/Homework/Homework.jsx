@@ -102,6 +102,13 @@ const Homework = () => {
                 <p>Portable Graphic Group: True Alpha Transparency (million of colors), lossless compression, 256 color just like gif </p>
                 <p>Scalable Vector Graphics: for logos, line art, icons. Vector-based, rather than bitmapped. XML files. No loss of integrity at size. </p>
             </Essay>
+            <Essay
+                number= { 7 }
+                question= 'Define the following roles: Project Manager, Business Analyst, Scrum Master, UX designer, Web Developer/Engineer, Quality Assurance Tester, and DevOps.'
+            >
+                Answer goes here
+            </Essay>
+
 
             
 

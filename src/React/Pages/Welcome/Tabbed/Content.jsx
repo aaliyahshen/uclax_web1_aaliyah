@@ -10,7 +10,7 @@ const Content = ({chosenTab}) => {
             </div>
             <div className="info">
                 <h3>{ chosenTab.title }</h3>
-                <div dangerouslySetInnerHTML={ { __html: chosenTab.text }} />
+                <div dangerouslySetInnerHTML={ { __html: chosenTab.text }} />git 
             </div>
         </ContentStyled>
     );
