@@ -36,6 +36,7 @@ const Homework = () => {
                     a platform as a service (PaaS) that enables developers to build, run and opearte applications. In relation to Git, it uses Git as the primary means for deploying applications. It's essentially Github with web servers. It is an essay way for codes to be deployed to applications on a web server and then shared.  
                 </p>
             </Essay>
+
             <Essay
                 number={ 2 }
                 question='Explain the difference between HTML, CSS and JS'
@@ -50,6 +51,7 @@ const Homework = () => {
                 <p>Java Script (behavior) was released in 1995. It is more complicated than HTML and CSS. It is a programming langauge that lets web developers create interactive websites. It modifies website content and makes the website behave in different ways based on users' actions. Some very basic examples of JavaScript in action include confirmation box or slide-in call-to-action (CTA). Others include security password creation, check forms, interactive games, animations and special effects.  
                 </p>
             </Essay>
+
             <Essay
                 number={ 3 }
                 question='What are Single Page Apps (SPAs)? How do they differ from traditional multi-page Web Sites?'
@@ -62,6 +64,7 @@ const Homework = () => {
                     
                 </p>
             </Essay>
+
             <Essay
                 number={ 4 }
                 question='What is the difference between Web Designer, Front End Developer and Back End Developer?'
@@ -79,6 +82,29 @@ const Homework = () => {
                 Back end developer manages what the user does not see. It usually involves more complicated software languages (e.g. PHP, python). Examples of responsibilities of back end developers include managing the databased, the server and security.  
                 </p>
             </Essay>
+
+            <Essay
+                number= { 5 }
+                question='Distinguish the difference Site Relative, Document Relative, and Absolute Paths.'
+            >
+                <p>Absolute paths contain a complete URL, which includes a protocol, the website's domain name and possibly a specific file, subfolder, or page name. Absolute path is used for linking a document or asset to another server.</p>
+                <p>Document-relative paths omit the part of the absolute path that is the same for both the current document and the linked document or asset, and is consisted of the portion of the path that differs. They’re particularly useful when the current document and the linked document or asset are in the same folder and are likely to remain together.</p>
+                <p>For local links, it is better to use relative paths than absolute paths. It prevents the links from not functioning when the domain changes. It also provides greater flexibility for moving files. </p>
+                <p>Site root–relative paths describe the path from the site’s root folder to a document. It is best used for HTML files that are frequently being moved from folders to folders. Because the link is to the site root, as it gets moved, the link does not change. A site root–relative path begins with a leading forward slash, which stands for the root folder of the site. </p>
+            </Essay>
+
+            <Essay
+                number= { 6 }
+                question='What is the difference between jpg, gif, png and SVG images?'
+            >
+                <p>Joint Photographic Experts Group (Bitmap), proprietary lossy compression. Million of colors. </p>
+                <p>Graphic Interchange Format: (Bitmap): supports animation, support 266 colors (logo, flat graphics) </p>
+                <p>Portable Graphic Group: True Alpha Transparency (million of colors), lossless compression, 256 color just like gif </p>
+                <p>Scalable Vector Graphics: for logos, line art, icons. Vector-based, rather than bitmapped. XML files. No loss of integrity at size. </p>
+            </Essay>
+
+            
+
         </div>
     ); 
 }
