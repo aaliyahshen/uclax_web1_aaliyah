@@ -5,10 +5,18 @@ import Lightbox from './Lightbox.jsx';
 
 const Playground = () => {
 
+    const LightboxContent = () => {
+        return (
+            <div>Content To Put In Lightbox.</div>
+        );
+    }
+
     return (
         <PlaygroundStyled className='Playground'>
             <h2>Playground</h2> 
-            <Lightbox />
+            <Lightbox LightboxContent={ LightboxContent }>
+                MY CONTENT
+            </Lightbox>
         </PlaygroundStyled>
     );
 }

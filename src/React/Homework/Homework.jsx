@@ -106,8 +106,15 @@ const Homework = () => {
                 number= { 7 }
                 question= 'Define the following roles: Project Manager, Business Analyst, Scrum Master, UX designer, Web Developer/Engineer, Quality Assurance Tester, and DevOps.'
             >
-                Answer goes here
+                <p>Project Manager: in charge of planning, resources and project delivery. </p>
+                <p>Business Analyst: analyzes prior and existing business data to improve decision making process</p>
+                <p>Scum Master: managed communication between team members, keeps the sprint moving along-agile processes. (Derived: Rugby)</p>
+                <p>UX Designer: UX stands for user experience. Usability. User flow and journey. Prototype. Content Strategy. Visual design</p>
+                <p>Web Developer/Engineer: designing and developing web applications. Functionality/features - and security</p>
+                <p>Quality Assurance Tester: </p>
+                <p>DevOps: connects development and operations team - creates harware and software to deliver applications</p>
             </Essay>
+            
 
 
             
