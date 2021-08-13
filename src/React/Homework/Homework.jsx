@@ -114,7 +114,25 @@ const Homework = () => {
                 <p>Quality Assurance Tester: </p>
                 <p>DevOps: connects development and operations team - creates harware and software to deliver applications</p>
             </Essay>
-            
+            <Essay 
+                number= { 8 }
+                question= 'What is considered the right size for an image or video asset?'
+            >
+                <p>Size for images in the context of website refer to image pixel dimensions (width and height in pixels) or the image file size (KB or MB). It is not about the inches or cm of the image. </p>
+                <p>Ideal image size differs depending on devices and the usage of the image. Generally, low image quality is preferred to prevent from slow web loading, which could loss viewer's attention and affects SEO. File size of the iamge should be as small as possible.</p>
+                <p>Generally the image ratio is 16*9 and DMI are between 1500 (ideal for mobile) to 2500 (idea for full-width screen) pixels. Videos are usually 30-40 seconds long for duration, and file size should be between 25 to 30 MB. </p>
+
+            </Essay>
+
+            <Essay
+                number= { 9 }
+                question= 'What does it mean for a company to be Agile? What are the pros and cons of being agile?'
+            >
+                <p>Agile is a software development methodology. It breaks up the software development process into minimal viable products—the smallest and simplest of what one tries to build. The software is then put out to the market. The software is improved as it receives feedback and encounters problems. </p>
+                <p>Another main software development methodology is waterfall. With this method, one thinks about the specificity of the software ideas carefully, takes time to do lots of research, then devotes some time to develop it and also makes sure that everything works. </p>
+                <p>Agile works the best when the software requires small updates and with the emphasis of getting to the market fast. Examples include social media apps, in which the competition is very fierce,  and there's a big need to adapt to customer's need through updates. </p>
+                <p>Waterfall works the best when the quality of the software is more important than the speed and that it is important for the software to work. An example is banking app, in which both the bank and the customers could suffer consequences if there are mistakes. </p>
+            </Essay>
 
 
             
