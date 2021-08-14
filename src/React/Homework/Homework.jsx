@@ -132,6 +132,10 @@ const Homework = () => {
                 <p>Another main software development methodology is waterfall. With this method, one thinks about the specificity of the software ideas carefully, takes time to do lots of research, then devotes some time to develop it and also makes sure that everything works. </p>
                 <p>Agile works the best when the software requires small updates and with the emphasis of getting to the market fast. Examples include social media apps, in which the competition is very fierce,  and there's a big need to adapt to customer's need through updates. </p>
                 <p>Waterfall works the best when the quality of the software is more important than the speed and that it is important for the software to work. An example is banking app, in which both the bank and the customers could suffer consequences if there are mistakes. </p>
+                <p>Agile also has stand-up meetings where people literally have meetings stand up, which is for the purpose of staying away from technology and stimulate communication and planning.</p>
+                <p>Agile iteration are known as design sprints (typically last for two weeks). Sprints translate business goals to what is known as requirements, which are then translated into tickets, of which progress are tracked on. </p>
+                <p>The person who is in charge of all the design sprints are called scrum master. They are responsible to make sure that everyone is working and help them to solve problems. </p>
+                <p>Agile also has stand-up meetings where people literally have meetings stand up, which is for the purpose of staying away from technology and stimulate communication and planning.</p>
             </Essay>
 
 
