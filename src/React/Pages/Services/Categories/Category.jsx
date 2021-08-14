@@ -10,7 +10,7 @@ const Category = ({cat, curCat, curCatUpdate}) => {
     const className = (curCat === cat) ? 'Category chosen': 'Category';
 
     return (
-        <CategoryStyled className={ className } onClick={ handleClick } >
+        <CategoryStyled className={ className } onClick={ handleClick }>
             { cat } 
         </CategoryStyled>
     );
@@ -27,6 +27,6 @@ const CategoryStyled = styled.button`
     margin: 0px 10px;
 
     &.chosen {
-        background-color: #004343;
+        background-color: #004343; 
     }
 `;
