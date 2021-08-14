@@ -138,6 +138,14 @@ const Homework = () => {
                 <p>Agile also has stand-up meetings where people literally have meetings stand up, which is for the purpose of staying away from technology and stimulate communication and planning.</p>
             </Essay>
 
+            <Essay
+                number= { 10 }
+                question= 'What are testing environments? What is the difference between Local, Dev, QA and Production?'
+            >
+                <p>answer goes here</p>    
+            </Essay>    
+                
+
 
             
 
