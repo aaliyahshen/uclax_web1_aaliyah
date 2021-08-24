@@ -1,9 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import { useMediaQuery } from 'common/mediaQueries/useMediaQuery';
+
 import Lightbox from 'React/Components/Lightbox/Lightbox.jsx';
 
 const Item = ({ service }) => {
+
+    const { media } = useMediaQuery();
 
     const LightboxContent = () => {
         return (
@@ -16,9 +20,11 @@ const Item = ({ service }) => {
         );
     }
 
+    const width = (media.mdUp) ? '400px' : '200px'; 
+
     return (
         <ItemStyled className='Item'>
-            <Lightbox LightboxContent={ LightboxContent }>
+            <Lightbox LightboxContent={ LightboxContent } width={ width }>
                 <img src={ service.image } alt={ service.title } />
                 <h3>{ service. title }</h3>
             </Lightbox>

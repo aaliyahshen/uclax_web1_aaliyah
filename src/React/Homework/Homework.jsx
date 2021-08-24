@@ -144,6 +144,13 @@ const Homework = () => {
             >
                 <p>answer goes here</p>    
             </Essay>    
+
+            <Essay
+                number= { 11 }
+                question= 'When are web images considered part of the content (HTML) as opposed to part of the appearance (CSS)?'
+            >
+                <p>answer goes here</p>    
+            </Essay>  
                 
 
 
