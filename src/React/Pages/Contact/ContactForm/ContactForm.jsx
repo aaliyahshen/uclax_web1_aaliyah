@@ -1,13 +1,17 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import UniversalForm from 'React/Components/UniversalForm/UniversalForm'; 
+import UniversalForm from 'React/Components/UniversalForm/UniversalForm.jsx' 
 
 const ContactForm = () => {
 
+    const defaultFormData = {
+        fullname: 'Dummy Data',
+    }
+    
     return (
         <ContactFormStyled className='ContactForm'>
-            <UniversalForm />
+            <UniversalForm defaultFormData={ defaultFormData } />
         </ContactFormStyled>
     );
 }
@@ -15,10 +19,5 @@ const ContactForm = () => {
 export default ContactForm;
 
 const ContactFormStyled = styled.div`
-    
-    background-color: pink;
-
-    @media (min-width: 800px){
-        background-color: orange;
-    }
+    padding: 20px;
 `;

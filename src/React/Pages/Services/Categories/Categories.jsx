@@ -12,7 +12,7 @@ const Categories = ({ categories, curCat, curCatUpdate }) => {
                     return <Category 
                                 key={ idx } 
                                 cat={ cat } 
-                                curcat={ curCat }
+                                curCat={ curCat }
                                 curCatUpdate={ curCatUpdate }
                                 />
                 })

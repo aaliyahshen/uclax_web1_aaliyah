@@ -17,7 +17,7 @@ const Container = () => {
             <p>{ curCat }</p>
             <Categories
                 categories={ categories } 
-                curcat={ curCat }
+                curCat={ curCat }
                 curCatUpdate={ curCatUpdate }
             />
             <Gallery services={ services } curCat={ curCat } />

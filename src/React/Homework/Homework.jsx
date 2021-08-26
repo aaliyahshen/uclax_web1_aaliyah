@@ -149,12 +149,33 @@ const Homework = () => {
                 number= { 11 }
                 question= 'When are web images considered part of the content (HTML) as opposed to part of the appearance (CSS)?'
             >
-                <p>answer goes here</p>    
+                <p>Web images are considered part of the content (HTML) when it has semantic meanings, as equivalent to text. On the contrary, if the images are merely for decoration purposes, without any meaning, it should be considered as CSS background images.</p>    
+                <p>Reference: https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML</p>
             </Essay>  
                 
+            <Essay
+                number= { 12 }
+                question= "what is the difference between ID's, Classes and Tags? How does specificity play a role in the selection of HTML elements (both in CSS and JS)?"
+            >
+                <p><b>Question 1:</b></p>    
+                <p>In CSS, IDs and classes are the two of the most common selectors used to target elements to which a style should be applied. The biggest difference between ID's and Classes are that ID is unique in a page and can only be applied to one HTML element (e.g. tags: any HTML tag used to mark up the content), while class are not unique and can be applied to multiple HTML elements. </p>    
+                <p>ID selectors are defined using a hash sign. Again, because ID selector is unique, it cannot be used to style more than one element on a page.</p>
+                <p>Class selectors are defined using a period, followed by the value of the class that the style would be applied. Class selectors are not unique and one element can also have multiple classes applied.</p>
+                <p>Another difference between IDs and classes is that classes are only used for applying styles to elements, while ID can be used by the browser for navigation. By assigning an element an ID, the element can be directed through a special URL link.</p>
+                <p>IDs are useful in Javascript because of its uniqueness, classes are less as commonly used.</p>
+                <p>Reference: https://careerkarma.com/blog/css-class-vs-id-2/</p>
+                <p><b>Question 2:</b></p>
+                <p>Specificity can be considered as a rank or score that determines which style declarations would be applied to an element when there are two or more conflicting CSS rules pointing to the same element. </p>
+                <p>To get a sense of specificity, universal selectors have low specificity, while ID selectors have high specificity. </p>
+                <p>Reference: https://www.w3schools.com/css/css_specificity.asp </p>
+            </Essay>  
 
-
-            
+            <Essay
+                number= { 13 }
+                question= "What is a CSS preprocessor? What are some examples? In React, what are styled components? How do styled components violate separation of concerns?" 
+            >
+                <p>answer goes here</p>    
+            </Essay>  
 
         </div>
     ); 
