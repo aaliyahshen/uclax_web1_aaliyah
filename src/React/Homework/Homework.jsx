@@ -177,6 +177,12 @@ const Homework = () => {
                 <p>answer goes here</p>    
             </Essay>  
 
+            <Essay
+                number= { 14 }
+                question='final project defined'
+            >
+                <p>answer goes here</p>    
+            </Essay>  
         </div>
     ); 
 }
