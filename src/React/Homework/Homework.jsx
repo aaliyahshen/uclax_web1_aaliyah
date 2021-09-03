@@ -213,6 +213,18 @@ const Homework = () => {
                     https://domains.google/learn/web-terms-101/ and https://intouchvet.com/blog/domains-hosting-ftp-terms-mean/
                 </p>
             </Essay> 
+
+            <Essay
+                number= { 16 }
+                question= "What is a Package Manager (e.g. NPM, Composer)? How does it play a role in software development?" 
+            >
+                <p>To understand what is a package manager, it helps to first explain what package is in the context of coding. Packages are reusable modules of code that developers have written. These modules are packaged as dependencies, making them portable and modular. These dependencies can be added to project and applications. Package manager is what developers use for importing these external dependencies. In the software development process, package managers allow developers to import external dependencies developed by other developers. It helps developers to update dependencies once they have imported it and generally save developers time. </p>
+                <p>Reference: </p>
+                <p>https://knowthecode.io/labs/local-development-environment-setup-windows/what-is-a-package-manager</p>
+                <p>https://blog.idrsolutions.com/2018/07/what-is-a-package-manager-and-why-should-you-use-one/</p>
+                    
+                
+            </Essay> 
         </div>
     ); 
 }
