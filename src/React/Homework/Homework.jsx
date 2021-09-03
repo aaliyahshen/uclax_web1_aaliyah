@@ -111,7 +111,7 @@ const Homework = () => {
                 <p>Scum Master: managed communication between team members, keeps the sprint moving along-agile processes. (Derived: Rugby)</p>
                 <p>UX Designer: UX stands for user experience. Usability. User flow and journey. Prototype. Content Strategy. Visual design</p>
                 <p>Web Developer/Engineer: designing and developing web applications. Functionality/features - and security</p>
-                <p>Quality Assurance Tester: </p>
+                <p>Quality Assurance Tester: QA testers try to break software by performing manual or automated tests that take the website or software through every scenario to find where the website malfunctions. If there is a malfunction found, a QA tester will have the developer re-develop that part of the software and then reiterate the process until there are no more bugs found. </p>
                 <p>DevOps: connects development and operations team - creates harware and software to deliver applications</p>
             </Essay>
             <Essay 
@@ -142,8 +142,16 @@ const Homework = () => {
                 number= { 10 }
                 question= 'What are testing environments? What is the difference between Local, Dev, QA and Production?'
             >
-                <p>answer goes here</p>    
-            </Essay>    
+                <p>Testing environments refer to the setup of hardwares and softwares for the purpose of testing hardware, software and network configuration.</p>    
+                <p>Local, Dev, QA and Production are four different types of testing environments.</p>
+                <p>Local is the most basic and "personal" testing environment. It is limited to the single developer and their laptop. It is the environment where the developer can test their own implementations and make changes. The developer can run tests under this environment without interrupting other developers. </p> 
+                <p>Dev means development environment, where tests are run within a share environment between developers. In this environment, every service within the application is getting deployed every time. Tests run in this environment may include unit tests, integration testing with mocked components, UI testing with mocked data and system health check.</p>
+                <p>QA are when the QA team come in and decide what features they want to test.</p>
+                <p>Production the production environment is where the users are involved. Users will experience the latested released code and enhanced functionality. Test in production environment must go smoothly to ensure that users will have a pleasant end-user experience. </p>
+                <p>Reference:</p>
+                <p>https://circleci.com/blog/path-to-production-how-and-where-to-segregate-test-environments/ </p>
+                <p>https://www.onpathtesting.com/blog/understanding-app-environments-for-software-quality-assurance</p>
+          </Essay>    
 
             <Essay
                 number= { 11 }
@@ -174,8 +182,16 @@ const Homework = () => {
                 number= { 13 }
                 question= "What is a CSS preprocessor? What are some examples? In React, what are styled components? How do styled components violate separation of concerns?" 
             >
-                <p>answer goes here</p>    
-            </Essay>  
+                <p>CSS preprocessor is a scripting language that extends CSS and gets compiled into regular CSS syntax. Examples of CSS preprocessor include Sass, LESS, and Stylus. </p>
+                <p>Reference: https://drupalize.me/videos/what-css-preprocessor?p=1175</p>
+                <p>Styled-components is a library for React and React Native that allows you to use component-level styles in your application. Styled-components are written with a mixture of JavaScript and CSS using a technique called CSS-in-JS. </p>    
+                <p>Seperation of concerns refer to the software design principle that code should be structured into layers and components so that each have distinct functionality with a little overlap as possible. My understanding of the reason why styled-components violate the principle of seperation of concerns is that it uses CSS-in-JS. According to the principle of the seperation of concerns, javascript and CSS should not be used together in one components as the two languages are responsible for two different components of the website (JS respoonsible for function, while CSS for styling), but styled-components use them together.</p>
+                <p>Reference:</p>
+                <p>1: https://www.smashingmagazine.com/2020/05/styling-components-react/#styled-components</p>
+                <p>2: https://simplicable.com/new/separation-of-concerns</p>
+                <p>3: https://krasimirtsonev.com/blog/article/react-separation-of-concerns</p>
+
+                </Essay>  
 
             <Essay
                 number= { 14 }
@@ -190,9 +206,12 @@ const Homework = () => {
                 number= { 15 }
                 question= "What is the difference between Web Hosts, Domains, and FTP?" 
             >
-                <p>Web Hosts refer to the physical place where all the website file are stored and made available to users on the Internet. Usuaully, it is pur </p>    
-                <p>Domains  </p>
-                <p>FTP stands for File Transferring  </p>
+                <p>Web Hosts refer to the physical place where all the website file are stored and made available to users on the Internet. Similar to domains, it is usually acquired through periodic payment from web hosting service providers. If the web hosting server goes down, the website will also go down. </p>    
+                <p>Domains or domain names are the name of the website. It is what you give to others when they ask about how to find your website. Anyone can purchase a domain by going to domain host or registrar like Google Domains. A good analogy to understand the difference between domain, website and the URL link is that the domain is like th name of the store, the URL is the address of the store and the website is the actual store. </p>
+                <p>FTP stands for File Transfer Protocol. It is a tool used by web developers to download or upload webiste's files to the web hosting account. It is usually accessed through username and password.   </p>
+                <p>Reference: 
+                    https://domains.google/learn/web-terms-101/ and https://intouchvet.com/blog/domains-hosting-ftp-terms-mean/
+                </p>
             </Essay> 
         </div>
     ); 
