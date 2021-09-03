@@ -179,10 +179,21 @@ const Homework = () => {
 
             <Essay
                 number= { 14 }
-                question='final project defined'
+                question={ `Final Project Defined` }
             >
-                <p>answer goes here</p>    
+                <p>I would like to turn use the final project as an opportunity to build a website for a non-profit organization. The organization already has a website, but it is pretty outdated in terms of content and design. Parterning up with two other design fellows in the Design Communication Art Project, we have redesigned the branding of the organization, including few pages of the website using Adobe Illustrator. I would like to use the final project to build a website based on the new design we had created for the organization. </p>    
+                <p>The name of the non-profit organization is called Teenline. The organization was founded by a group of medical doctors who had the heart to create scientific and useful resources to help teens who struggle with mental health illnesses. The uniqueness of the organization is that majority of the help offered to those who are struggling are not directly through the professionals but trained teen volunteers. Trained volunteers are responsible for pickup hotlines and interacting with those who are seeking help through message app and forum.</p>
+                <p>The purpose of the website is to serve as the online platform for the organization. I decide to choose this subject because it would be an interesting attempt to bring our design into realizations. I know it will not be exactly the same and many of the things we designed probably cannot be achicheved right away, but it will still be interesting to see where everything will go. </p>
             </Essay>  
+
+            <Essay
+                number= { 15 }
+                question= "What is the difference between Web Hosts, Domains, and FTP?" 
+            >
+                <p>Web Hosts refer to the physical place where all the website file are stored and made available to users on the Internet. Usuaully, it is pur </p>    
+                <p>Domains  </p>
+                <p>FTP stands for File Transferring  </p>
+            </Essay> 
         </div>
     ); 
 }

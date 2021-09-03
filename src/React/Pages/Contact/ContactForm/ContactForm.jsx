@@ -6,7 +6,7 @@ import UniversalForm from 'React/Components/UniversalForm/UniversalForm.jsx'
 const ContactForm = () => {
 
     const defaultFormData = {
-        apiURL: '/email/send',
+        apiUrl: '/email/send',
         hasSubmitted: false,
         request: {},
         response: {},
@@ -16,7 +16,7 @@ const ContactForm = () => {
             {
                 id: 'fullname',
                 label: 'Full Name',
-                value: '',
+                value: 'Aaliyah Shen',
                 type: 'text',
                 validation: {
                     isValid: true,
@@ -28,7 +28,7 @@ const ContactForm = () => {
             {
                 id: 'email',
                 label: 'Email',
-                value: '',
+                value: 'shenfaith080622@hotmail.com',
                 type: 'text',
                 validation: {
                     isValid: true,
@@ -39,7 +39,7 @@ const ContactForm = () => {
             {
                 id: 'message',
                 label: 'Message',
-                value: '',
+                value: 'This is my really cool message',
                 type: 'textarea',
                 validation: {
                     isValid: true,
