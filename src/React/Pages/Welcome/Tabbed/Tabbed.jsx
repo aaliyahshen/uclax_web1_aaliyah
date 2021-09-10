@@ -33,5 +33,4 @@ const Tabbed = () => {
 export default Tabbed;
 
 const TabbedStyled = styled.div`
-    
 `;

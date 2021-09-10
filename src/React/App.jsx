@@ -15,7 +15,6 @@ const App = () => {
         <MediaQueryProvider>
             <BrowserRouter>
                 <AppStyled>
-                    <Header />
                     <Navigation />
                     <Main />
                     <Footer />
@@ -29,9 +28,7 @@ export default App;
 
 const AppStyled = styled.div`
     .inset-container {
-        border: solid 2px red; 
         max-width: 1600px;
-
         margin-right: auto;
         margin-left: auto; 
 

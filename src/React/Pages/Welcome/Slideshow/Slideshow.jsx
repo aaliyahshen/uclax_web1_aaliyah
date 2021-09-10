@@ -14,7 +14,7 @@ const Slideshow = () => {
             <Carousel
                 showThumbs={ false }
                 showIndicators={ false }
-                autoPlay={ false }
+                autoPlay={ true }
                 infiniteLoop={ true }
                 showArrows={ true }
             > 
@@ -31,11 +31,6 @@ const Slideshow = () => {
 export default Slideshow;
 
 const SlideshowStyled = styled.div`
-
-    margin-bottom: 50px;
-
-    .carousel .slide .legend {
-        background-color: maroon;
-    }
-
+    padding: 40px;
+    margin: auto;
 `;

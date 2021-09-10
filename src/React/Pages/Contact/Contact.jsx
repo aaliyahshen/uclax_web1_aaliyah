@@ -6,23 +6,22 @@ import { mediaQueries } from 'common/mediaQueries/mediaQueries.js';
 import Info from './Info/Info.jsx';
 import Map from './Map/Map.jsx';
 import ContactForm from './ContactForm/ContactForm.jsx';
+import YoutubePlayer from './Youtube/YoutubePlayer.jsx';
 
 const Contact = () => {
 
     return (
         <ContactStyled className='Contact'>
-            <h1>Contact page</h1> 
+            <YoutubePlayer />
+            <h1>Leave us a message</h1> 
 
             <div className="row">
                 <div className="col">
-                    <Info />
                 </div>
                 <div className="col">
                     <ContactForm />
                 </div>
             </div>
-
-            <Map />
 
         </ContactStyled>
     );
@@ -40,5 +39,10 @@ const ContactStyled = styled.div`
             }
         }
     }
+
+    background-color: black;
+    color: white;
+    padding: 10px;
+
     
 `; 

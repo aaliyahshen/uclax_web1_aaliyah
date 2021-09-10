@@ -4,8 +4,7 @@ import styled from 'styled-components';
 const Header = () => {
     return (
         <HeaderStyled>
-            <h2>Spa Sanctuary </h2>
-            <h3>A SPA for every occasssion</h3>
+            Teenline
         </HeaderStyled>
     )
 }
@@ -13,7 +12,9 @@ const Header = () => {
 export default Header; 
 
 const HeaderStyled = styled.header`
-    background-color: teal;
+    background-color: #F8811A;
     padding: 20px; 
-    text-align: center;
+    text-align: justify;
+    color: white;
+    font-size: 20px;
 `;

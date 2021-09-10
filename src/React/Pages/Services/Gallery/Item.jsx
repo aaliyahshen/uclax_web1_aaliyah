@@ -13,7 +13,7 @@ const Item = ({ service }) => {
         return (
             <div>
                 <img src={ service.image } alt={ service.name } />
-                <h3>{ service.title }</h3>
+                <h3>{ service.title }</h3> 
                 <div className="cost">{ service.cost }</div>
                 <p>{ service.description }</p>
             </div>
@@ -36,14 +36,29 @@ export default Item;
 
 const ItemStyled = styled.div`
     img {
-        width: 100%;
         display: block;
+        width: 100%;
     }
+
     h3{
-        background-color: teal;
+        background-color: #000000;
         color: white;
-        padding: 5px; 
+        padding: 10px; 
         font-size: 18px;
         margin: 0px;
+        text-align: center;
     }
+
+    p {
+        background: #000000;
+        color: white;
+        font-size: 16px;
+        padding: 10px;
+        font-weight: lighter;
+    }
+    
+    div {
+        padding: 5px;
+    }
+
 `;

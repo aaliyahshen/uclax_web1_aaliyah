@@ -7,7 +7,7 @@ const Services = () => {
 
     return (
         <ServicesStyled className='Services'>
-            <h1>Services</h1>
+            <img src='/img/Services/shop_banner_1.png'></img>
             <Container />
         </ServicesStyled>
     );
@@ -16,5 +16,9 @@ const Services = () => {
 export default Services;
 
 const ServicesStyled = styled.div`
+    background-color: #002791;
+
+
+
     
 `;

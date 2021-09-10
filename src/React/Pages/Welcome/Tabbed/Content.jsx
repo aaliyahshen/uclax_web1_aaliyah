@@ -9,8 +9,7 @@ const Content = ({chosenTab}) => {
                 <img src={ chosenTab.image } alt="{ chosenTab.image }" />
             </div>
             <div className="info">
-                <h3>{ chosenTab.title }</h3>
-                <div dangerouslySetInnerHTML={ { __html: chosenTab.text }} />git 
+                <div dangerouslySetInnerHTML={ { __html: chosenTab.text }} />
             </div>
         </ContentStyled>
     );
@@ -19,8 +18,8 @@ const Content = ({chosenTab}) => {
 export default Content;
 
 const ContentStyled = styled.div`
-    padding: 20px; 
-    background-color: teal;
+    padding: 40px; 
+    background-color: #0B349C;
     min-height: 200px; 
     
     display: flex;
@@ -28,7 +27,7 @@ const ContentStyled = styled.div`
     .image {
         flex: 1;
         img {
-            max-width: 100px; 
+            max-width: 1200px; 
         }
     }
 

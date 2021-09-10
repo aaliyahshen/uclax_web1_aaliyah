@@ -19,6 +19,7 @@ export default Hamburger;
 
 const HamburgerStyled = styled.div`
     font-size: 30px;
-    color: white;
+    color: #ffffff;
     cursor: pointer;
+    background-color: black;
 `;

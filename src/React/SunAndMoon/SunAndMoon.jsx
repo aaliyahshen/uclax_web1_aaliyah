@@ -16,7 +16,7 @@ const SunAndMoon = () => {
 
     return (
         <SunAndMoonStyled>
-            <h2>Sun And Moon changes</h2>
+            <h2>Feeling stressed out and anxious? </h2>
             <img
                 src={ imageState }
                 alt='Sun' 
@@ -34,6 +34,8 @@ const SunAndMoonStyled = styled.div`
     text-align: center;
 
     h2 {
-        background-color: pink;
+    color: #0B349C;
+    background-color: white;
+    text-align: left;
     }
 `;
